@@ -1,14 +1,12 @@
-Sure! Here's a professional and detailed **README.md** file for your **Airline Sentiment Analysis using RNN** project. You can copy this directly into a `README.md` file on GitHub or any documentation portal.
 
----
 
-# ✈️ Airline Sentiment Analysis Using RNN (PyTorch)
+#  Airline Sentiment Analysis Using RNN (PyTorch)
 
 A deep learning project that performs sentiment analysis on airline-related tweets using a Recurrent Neural Network (RNN) implemented in PyTorch. The model classifies tweets as **positive**, **neutral**, or **negative**, helping airlines understand public opinion and improve customer service.
 
 ---
 
-## 📚 Table of Contents
+##  Table of Contents
 
 - [About the Project](#about-the-project)
 - [Technologies Used](#technologies-used)
@@ -22,7 +20,7 @@ A deep learning project that performs sentiment analysis on airline-related twee
 
 ---
 
-## 🧠 About the Project
+## About the Project
 
 This project builds a text classification model using an RNN to detect sentiment in airline tweets. It involves:
 
@@ -35,7 +33,7 @@ The end goal is to predict if a tweet expresses a **positive**, **negative**, or
 
 ---
 
-## ⚙️ Technologies Used
+##  Technologies Used
 
 - Python
 - Pandas, NumPy
@@ -47,7 +45,7 @@ The end goal is to predict if a tweet expresses a **positive**, **negative**, or
 
 ---
 
-## 🗂️ Dataset
+##  Dataset
 
 - **Source**: [Kaggle Airline Twitter Sentiment](https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment)
 - **Samples**: ~14,640 tweets
@@ -63,7 +61,7 @@ The end goal is to predict if a tweet expresses a **positive**, **negative**, or
 
 ---
 
-## 🔄 Project Pipeline
+##  Project Pipeline
 
 1. **Import Libraries**
 2. **Load and Explore Data**
@@ -82,7 +80,7 @@ The end goal is to predict if a tweet expresses a **positive**, **negative**, or
 
 ---
 
-## 🧱 Model Architecture
+##  Model Architecture
 
 ```python
 Embedding Layer → Simple RNN Layer → Fully Connected Layer → LogSoftmax
@@ -95,7 +93,7 @@ Embedding Layer → Simple RNN Layer → Fully Connected Layer → LogSoftmax
 
 ---
 
-## 📈 Results
+##  Results
 
 - The model achieves reasonable accuracy for a basic RNN.
 - Performance is visualized using:
@@ -106,7 +104,7 @@ Embedding Layer → Simple RNN Layer → Fully Connected Layer → LogSoftmax
 
 ---
 
-## 🚧 Limitations & Future Scope
+##  Limitations & Future Scope
 
 ### Limitations:
 - Basic RNN struggles with long-term dependencies.
@@ -122,14 +120,14 @@ Embedding Layer → Simple RNN Layer → Fully Connected Layer → LogSoftmax
 
 ---
 
-## 🛠 Installation & Usage
+##  Installation & Usage
 
-### 🔧 Requirements:
+###  Requirements:
 ```bash
 pip install pandas numpy torch scikit-learn wordcloud matplotlib seaborn
 ```
 
-### ▶️ Run the Project:
+### ▶Run the Project:
 
 1. Clone the repo:
    ```bash
@@ -143,7 +141,7 @@ pip install pandas numpy torch scikit-learn wordcloud matplotlib seaborn
 
 ---
 
-## 📝 License
+##  License
 
 This project is licensed under the **MIT License**. Feel free to use and adapt it for academic or non-commercial purposes.
 
